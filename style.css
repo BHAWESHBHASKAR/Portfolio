@@ -174,7 +174,11 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(172, 172, 172);
 }
+
 
 .section__text {
   align-self: center;
@@ -364,6 +368,7 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  box-shadow: 5px 10px #13f80b;
 }
 
 .project-img {
